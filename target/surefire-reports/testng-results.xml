@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="451887" started-at="2019-01-22T17:34:58Z" finished-at="2019-01-22T17:42:30Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="451887" started-at="2019-01-22T17:34:58Z" finished-at="2019-01-22T17:42:30Z">
+      <class name="MobileProgrammingLLC.Tests.Amazon_SigningIn">
+        <test-method status="PASS" signature="initConfigs()[pri:0, instance:MobileProgrammingLLC.Tests.Amazon_SigningIn@393671df]" name="initConfigs" is-config="true" duration-ms="59852" started-at="2019-01-22T23:04:58Z" finished-at="2019-01-22T23:05:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initConfigs -->
+        <test-method status="PASS" signature="navigateToSignInPage()[pri:0, instance:MobileProgrammingLLC.Tests.Amazon_SigningIn@393671df]" name="navigateToSignInPage" duration-ms="80329" started-at="2019-01-22T23:05:58Z" finished-at="2019-01-22T23:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignInPage -->
+        <test-method status="PASS" signature="verifySignInErrorMsg()[pri:0, instance:MobileProgrammingLLC.Tests.Amazon_SigningIn@393671df]" name="verifySignInErrorMsg" duration-ms="38997" started-at="2019-01-22T23:07:18Z" depends-on-methods="MobileProgrammingLLC.Tests.Amazon_SigningIn.navigateToSignInPage" finished-at="2019-01-22T23:07:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInErrorMsg -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MobileProgrammingLLC.Tests.Amazon_SigningIn@393671df]" name="tearDown" is-config="true" duration-ms="2969" started-at="2019-01-22T23:07:57Z" finished-at="2019-01-22T23:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MobileProgrammingLLC.Tests.Amazon_SigningIn -->
+      <class name="MobileProgrammingLLC.Tests.Flipkart_AssertingProducts">
+        <test-method status="PASS" signature="initConfigs()[pri:0, instance:MobileProgrammingLLC.Tests.Flipkart_AssertingProducts@56620197]" name="initConfigs" is-config="true" duration-ms="25971" started-at="2019-01-22T23:08:00Z" finished-at="2019-01-22T23:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initConfigs -->
+        <test-method status="PASS" signature="validatingAddToCartFunctionality(java.lang.String)[pri:0, instance:MobileProgrammingLLC.Tests.Flipkart_AssertingProducts@56620197]" name="validatingAddToCartFunctionality" duration-ms="120942" started-at="2019-01-22T23:08:26Z" data-provider="getData" finished-at="2019-01-22T23:10:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingAddToCartFunctionality -->
+        <test-method status="PASS" signature="validatingAddToCartFunctionality(java.lang.String)[pri:0, instance:MobileProgrammingLLC.Tests.Flipkart_AssertingProducts@56620197]" name="validatingAddToCartFunctionality" duration-ms="120384" started-at="2019-01-22T23:10:27Z" data-provider="getData" finished-at="2019-01-22T23:12:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingAddToCartFunctionality -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:MobileProgrammingLLC.Tests.Flipkart_AssertingProducts@56620197]" name="tearDown" is-config="true" duration-ms="2388" started-at="2019-01-22T23:12:28Z" finished-at="2019-01-22T23:12:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- MobileProgrammingLLC.Tests.Flipkart_AssertingProducts -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

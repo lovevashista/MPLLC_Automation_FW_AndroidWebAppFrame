@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test1</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">1,453</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">MobileProgrammingLLC.Tests.Flipkart_AddToCart</td><td><a href="#m0">initConfigs</a></td><td rowspan="1">1545440347130</td><td rowspan="1">1348</td></tr><tr><th colspan="4">Test1 &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">MobileProgrammingLLC.Tests.Flipkart_AddToCart</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1545440348525</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">MobileProgrammingLLC.Tests.Flipkart_AddToCart</td><td><a href="#m2">validatingAddToCartFunctionality</a></td><td rowspan="2">1545440348519</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m3">validatingAddToCartFunctionality</a></td></tr></tbody>
+</table>
+<h2>Test1</h2><h3 id="m0">MobileProgrammingLLC.Tests.Flipkart_AddToCart#initConfigs</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">io.appium.java_client.service.local.InvalidServerInstanceException: Invalid server instance exception has occured: There is no installed nodes! Please install node via NPM (https://www.npmjs.com/package/appium#using-node-js) or download and install Appium app (http://appium.io/downloads.html)
+	at io.appium.java_client.service.local.AppiumServiceBuilder.findNodeInCurrentFileSystem(AppiumServiceBuilder.java:156)
+	at io.appium.java_client.service.local.AppiumServiceBuilder.checkAppiumJS(AppiumServiceBuilder.java:317)
+	at io.appium.java_client.service.local.AppiumServiceBuilder.createArgs(AppiumServiceBuilder.java:397)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:338)
+	at io.appium.java_client.service.local.AppiumDriverLocalService.buildService(AppiumDriverLocalService.java:71)
+	at MobileProgrammingLLC.Resources.Base.startAppiumServer(Base.java:69)
+	at MobileProgrammingLLC.Resources.Base.createAppiumServerConnection(Base.java:113)
+	at MobileProgrammingLLC.Tests.Flipkart_AddToCart.initConfigs(Flipkart_AddToCart.java:39)
+Caused by: java.io.IOException: 
+┌──────────────────────────────────────────────────────────────────┐
+│                     npm update check failed                      │
+│               Try running with sudo or get access                │
+│               to the local update config store via               │
+│ sudo chown -R $USER:$(id -gn $USER) /Users/love.vashista/.config │
+└──────────────────────────────────────────────────────────────────┘
+/usr/local/lib/node_modules
+
+
+	at io.appium.java_client.service.local.AppiumServiceBuilder.findNodeInCurrentFileSystem(AppiumServiceBuilder.java:157)
+	... 33 more
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">MobileProgrammingLLC.Tests.Flipkart_AddToCart#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">MobileProgrammingLLC.Tests.Flipkart_AddToCart#validatingAddToCartFunctionality</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">io.appium.java_client.service.local.InvalidServerInstanceException: Invalid server instance exception has occured: There is no installed nodes! Please install node via NPM (https://www.npmjs.com/package/appium#using-node-js) or download and install Appium app (http://appium.io/downloads.html)
+	at io.appium.java_client.service.local.AppiumServiceBuilder.findNodeInCurrentFileSystem(AppiumServiceBuilder.java:156)
+	at io.appium.java_client.service.local.AppiumServiceBuilder.checkAppiumJS(AppiumServiceBuilder.java:317)
+	at io.appium.java_client.service.local.AppiumServiceBuilder.createArgs(AppiumServiceBuilder.java:397)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:338)
+	at io.appium.java_client.service.local.AppiumDriverLocalService.buildService(AppiumDriverLocalService.java:71)
+	at MobileProgrammingLLC.Resources.Base.startAppiumServer(Base.java:69)
+	at MobileProgrammingLLC.Resources.Base.createAppiumServerConnection(Base.java:113)
+	at MobileProgrammingLLC.Tests.Flipkart_AddToCart.initConfigs(Flipkart_AddToCart.java:39)
+Caused by: java.io.IOException: 
+┌──────────────────────────────────────────────────────────────────┐
+│                     npm update check failed                      │
+│               Try running with sudo or get access                │
+│               to the local update config store via               │
+│ sudo chown -R $USER:$(id -gn $USER) /Users/love.vashista/.config │
+└──────────────────────────────────────────────────────────────────┘
+/usr/local/lib/node_modules
+
+
+	at io.appium.java_client.service.local.AppiumServiceBuilder.findNodeInCurrentFileSystem(AppiumServiceBuilder.java:157)
+	... 33 more
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">MobileProgrammingLLC.Tests.Flipkart_AddToCart#validatingAddToCartFunctionality</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">io.appium.java_client.service.local.InvalidServerInstanceException: Invalid server instance exception has occured: There is no installed nodes! Please install node via NPM (https://www.npmjs.com/package/appium#using-node-js) or download and install Appium app (http://appium.io/downloads.html)
+	at io.appium.java_client.service.local.AppiumServiceBuilder.findNodeInCurrentFileSystem(AppiumServiceBuilder.java:156)
+	at io.appium.java_client.service.local.AppiumServiceBuilder.checkAppiumJS(AppiumServiceBuilder.java:317)
+	at io.appium.java_client.service.local.AppiumServiceBuilder.createArgs(AppiumServiceBuilder.java:397)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:338)
+	at io.appium.java_client.service.local.AppiumDriverLocalService.buildService(AppiumDriverLocalService.java:71)
+	at MobileProgrammingLLC.Resources.Base.startAppiumServer(Base.java:69)
+	at MobileProgrammingLLC.Resources.Base.createAppiumServerConnection(Base.java:113)
+	at MobileProgrammingLLC.Tests.Flipkart_AddToCart.initConfigs(Flipkart_AddToCart.java:39)
+Caused by: java.io.IOException: 
+┌──────────────────────────────────────────────────────────────────┐
+│                     npm update check failed                      │
+│               Try running with sudo or get access                │
+│               to the local update config store via               │
+│ sudo chown -R $USER:$(id -gn $USER) /Users/love.vashista/.config │
+└──────────────────────────────────────────────────────────────────┘
+/usr/local/lib/node_modules
+
+
+	at io.appium.java_client.service.local.AppiumServiceBuilder.findNodeInCurrentFileSystem(AppiumServiceBuilder.java:157)
+	... 33 more
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
